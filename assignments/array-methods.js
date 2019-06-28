@@ -111,11 +111,8 @@ console.log(bigDonor)
 
 // Problem 3
 let lowdonor = []
-let denied = []
 
 lowdonor = runners.filter(runner => runner.donation <= 25);
 
 lowdonor.forEach(runner => {
-    denied.push(`${runner.first_name} ${runner.last_name} only donated $${runner.donation}. Contact at ${runner.email} to deny entry`)});
-
-console.log(denied);
+    console.log(`${runner.first_name} ${runner.last_name} only donated $${runner.donation}. Contact at ${runner.email} to deny entry`)});
