@@ -38,7 +38,8 @@ const counterFactory = () => {
   return num;
   
 };
-  let math = counterFactory();
+
+const math = counterFactory();
   
 console.log(math.decrement());
 console.log(math.decrement());
